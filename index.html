@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reflom IT Solutions</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="icon" type="image/x-icon" href="Images/favicon.jpg">
+	<style type="text/css">
+		body{
+			background: #c8c9cc;
+		}
+		.head{
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 16px;
+		}
+		.head-hover{
+			color: #c8ccc9;
+		}
+		.fa{
+			font-size: 20px;
+			margin-left: 8px;
+			text-align: right;
+		}
+		.head-hover:hover{
+			color: white;
+		}
+		.c11{
+			font-size: 20px;
+			color: #202c5c;
+		}
+		.c12{
+			font-size: 15px;
+			color: #0cbec7;
+		}
+		.cardtitle{
+			color: #0cbec7;
+		}
+		.cardtext{
+			color: #202c5c;
+		}
+		.card-body{
+			width: 80%;
+			height: 60%;
+			margin-top: -60px;
+			margin-left: 10%;
+			background: white;
+		}
+		.card{
+			width: 90%;
+			border: none;
+			background: #c8c9cc;
+		}
+		.row-5 a:hover{
+			text-decoration: none;
+			background: red;
+			color: white;
+		}
+		.row-5 img:hover{
+			height: 100px;
+			width: 100px;
+		}
+		.background {
+    background:url('../img/bg/diagonalnoise.png');
+    position: relative;
+}
+.rrr:hover{
+	margin-top: -140px;
+}
+.rrr{
+	margin-top: -120px;
+}
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+		.ficon{
+			color: #38414f;
+		}
+		.ficon:hover{
+			color: orange;
+			font-size: 30px;
+		}
+		.foot{
+			margin-top: 30px;
+		}
+		.foot th, .foot td{
+			width: 140px;
+			height: 30px;
+			color: #6b798f;
+			border: none;
+			margin-left: 20px;
+		}
+		#c1a:hover{
+			background-color: #ff5050;
+			color: white;
+			font-size: 25px;
+		}
+		#c1a{
+			text-decoration: none;border: 2px solid white;background: white;height: 50px;width: 100%;display: block;
+			font-size: 20px;
+		}
+
+	@media only screen and (max-width: 425px;){
+		.head{
+				color: rgba(255, 255, 255, 0.5);
+				font-size: 15px;
+		}
+		.fa{
+				font-size: 20px;
+				margin-left: 6px;
+				text-align: right;
+		}
+		div.head{
+			align-content: center;
+			padding-left: 0px;
+		}
+		.tt{
+			border: 1px dashed #3f4042;
+			border-radius: 3px; 
+			height: 220px;
+			width: 140px;
+			padding: 5px;
+		}
+
+		.tt img:hover{
+			height: 75px;
+			width: 75px;
+		}
+		.ttt{
+			width: 150px;
+		}
+		.imm{
+			height: 300px;
+		}
+		.im{
+			height: 150px;
+		}
+		.sector{
+			display: none;
+			visibility: hidden;
+			top: 
+		}
+	}
+	.fa-play-cir{
+		position: relative;
+		animation: mymove 1s infinite;
+	}
+	@keyframes mymove{
+		from{
+			font-size: 70px;
+		}
+		to{
+			font-size: 100px;
+		}
+	}
+	@media only screen and (min-width: 426px;){
+		div.head{
+			padding-left: 30px;
+			align-content: left;
+		}
+		.tt{
+			border: 1px dashed #3f4042;
+			border-radius: 3px; 
+			height: 220px;
+			width: 170px;
+			padding: 5px;
+		}
+		.tt img:hover{
+			height: 75px;
+			width: 75px;
+		}
+		.ttt{
+			width: 150px;
+		}
+		.imm{
+			height: 300px;
+		}
+		.im{
+			height: 300px;
+		}
+
+		.sector{
+			display: block;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+<!-- HEADER FOR SOCIAL LINKS -->
+		<div class="row bg-dark">
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 my-1">
+					<div class="float-left head">Quick Connect -&nbsp;</div>
+					<a href="#" class="text-decoration-none head head-hover">info@reflom.com</a>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-right pr-5 my-1">
+					<div>
+						<a href="#" data-tooltip="skype" >
+							<i class="fa fa-skype head head-hover"></i>
+						</a>
+						<a href="#" data-tooltip="facebook" >
+							<i class="fa fa-facebook-f head head-hover"></i>
+						</a>
+						<a href="#" data-tooltip="twitter" >
+							<i class="fa fa-twitter head head-hover"></i>
+						</a>
+						<a href="#" data-tooltip="linkedin" >
+							<i class="fa fa-linkedin head head-hover"></i>
+						</a>
+						<a href="#" data-tooltip="instagram" >
+							<i class="fa fa-instagram head head-hover"></i>
+						</a>
+					</div>
+				</div>	
+		</div>
+<!-- HEADER FOR SOCIAL LINKS ENDING -->
+<!-- NAVBAR -->
+		<div class="row bg-light">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-2">
+				<p class="text-info text-center"><a href="#" class="text-info text-decoration-none font-weight-bold">Now Hiring </a> : Are you a driven and motivated 1st Line Software Developer?</p>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+		    <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xl-12 bg-light">
+				<nav class="navbar navbar-expand-sm bg-light navbar-light ml-3">
+  					<!-- logo -->
+  						<a class="navbar-brand" href="#">
+    						<img src="Images/logo.jpg" alt="Logo" style="width:100px;">
+  						</a>
+					  	<!-- Toggler/collapsibe Button -->
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="true">
+						    <span class="navbar-toggler-icon"></span>
+						</button>
+						  <!-- Navbar links#374f75 -->
+						<div class="navbar-collapse collapse show" id="collapsibleNavbar" style="">
+						    <ul class="navbar-nav">
+						      <li class="nav-item active"><a class="nav-link text-info font-weight-bold" href="#" >Home</a></li>
+						      <li class="nav-item"><a class="nav-link text-info font-weight-bold" href="#">IT Solutions</a></li>
+						      <li class="nav-item"><a class="nav-link text-info font-weight-bold" href="#">Company</a></li>
+						      <li class="nav-item"><a class="nav-link text-info font-weight-bold" href="#">Blog</a></li>
+						      <li class="nav-item"><a class="nav-link text-info font-weight-bold" href="#">Contact Us</a></li>
+						    </ul>
+						</div>
+					</nav>	
+					<div class="sector" style="height: 270px;width: 270px;background: linear-gradient(to bottom left, #0099ff 1%, #66ffff 100%);border-bottom-left-radius:270px;float: right;position: absolute;top:-65px;right: 0px;opacity: 0.7;">
+					</div>
+    			</div>	
+			</div>
+<!-- NAVBAR ENDING -->
+<!-- ROW 3 #c2c2c2,#e5e3e6-->
+	<div class="row" style="background-image: linear-gradient(#c2c2c2,#e5e3e6);height: 300px;">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+			<div class="mb-5 mt-3">
+				<h4 class="mb-5 mt-3">We Ideate, Innovate And Create</h4>
+				<h1 class="mb-5 mt-5" style="color: #333d66;font-size: 40px;">The Digital Solutions You Deserve</h1>
+				<h4><a href="#" onmouseout='this.innerHTML="Find Your Solution -->"' onmouseover='this.innerHTML="--> Find Your Solution"' style="text-decoration: none;" class="mb-5 mt-5">Find Your Solution --></a></h4>				
+			</div>
+			<div  class="sector" style="height: 270px;width: 270px;background: linear-gradient(to top right, #ff3300 1%, #ffcc00 100%);border-top-right-radius:270px; float: left;position: absolute;bottom: 0px;left: 0px;opacity: 0.7">
+			</div>
+		</div>
+	</div>
+<!-- ROW 3 ENDING -->
+<!-- ROW 4 -->
+	<div class=" row pt-3 px-5 pb-5" style="background-color: #231834 !important;">
+		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mx-auto py-3 pb-5">
+			<h6 style="color: blue;">OUR COMPANY</h6>
+			<h2 class="text-light">NanoSoft is your trusted source in IT services and support</h2>
+		</div>
+		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mx-auto py-3 pb-5">
+			<p style="color: #9b9aad;">NanoSoft is a privately owned IT Support and IT Services business formed in 1988. Today we’re proud to boast a strong team of IT engineers who thrive on rolling up their sleeves and solving your IT problems and meeting your business needs.</p>
+		</div>
+	</div>
+<!-- ROW 4 ENDING -->
+<!-- ROW 4 IMAGES -->
+	<div class="row px-5 py-5" style="margin-top: -160px;">
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mx-auto mb-2 pt-5">
+			<div class="card" onmouseover="mouseoncard1()" onmouseout="mouseoutcard1()">
+				<img class="card-img-top" src="Images/c1.jpg">
+			  	<div class="card-body">
+			    	<h6 id="c11" class="card-title text-center font-weight-bold c11">Our Services</h6>
+			    	<h5 id="c12" class="card-text text-center font-weight-bold c12">How can we help?</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mx-auto mb-2 pt-5">
+			<div class="card" onmouseover="mouseoncard2()" onmouseout="mouseoutcard2()">
+				<img class="card-img-top" src="Images/c2.jpg">
+			  	<div class="card-body">
+			    	<h6 id="c21" class="card-title text-center font-weight-bold c11">Our Expertise</h6>
+			    	<h5 id="c22" class="card-text text-center font-weight-bold c12">Why partner with us?</h5>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mx-auto mb-2 pt-5">
+			<div class="card" onmouseover="mouseoncard3()" onmouseout="mouseoutcard3()">
+				<img class="card-img-top" src="Images/c3.jpg">
+			  	<div class="card-body">
+			    	<h6 id="c31" class="card-title text-center font-weight-bold c11">Our Customers</h6>
+			    	<h5 id="c32" class="card-text text-center font-weight-bold c12">Client success stories</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- ROW 4 IMAGES ENDING -->
+	<p class="text-center mx-2 my-5" style="color: #576d6e;">Stop wasting time and money on technology. <a href="#" style="border-bottom: 1px dotted black;text-decoration: none;color: #576d6e;"> Explore our company</a></p>
+<!-- ROW 5 -->
+	<div class="row"  style="background: white;">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center font-weight-bold my-5">
+			<p>OUR SERVICES</p>
+			<h1>Stay Up, Stay Running, Stay Protected</h1>			
+		</div>
+	</div>
+	<div class="row row-5" style="background: white;">	
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mx-auto mb-2">
+			<div class="card" style="background: #f3f6f9;">
+				<div class="p-4 text-center">
+					<h5 style="color: #0e2b5c;">Managed IT services</h5>
+					<p style="color: #627792;">24/7 maintenance and monitoring that keeps your computers, servers, and systems up and running.</p>
+					<div class="my-5">
+						<img src="Images/c21.svg" style="box-shadow-bottom: gray;">
+					</div>
+					<a href="#" class="font-weight-bold text-center">Stay up and running --></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mx-auto mb-2">
+			<div class="card" style="background: #f3f6f9;">
+				<div class="p-4 text-center">
+					<h5 style="color: #0e2b5c;">Backup and recovery</h5>
+					<p style="color: #627792;">Prevent data loss with encrypted storage and virtualized recovery, then enjoy increased productivity.</p>
+					<div class="my-5">
+						<img src="Images/c22.svg" style="box-shadow-bottom: gray;">
+					</div>
+					<a href="#" class="font-weight-bold text-center">Defend your data --></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mx-auto mb-2">
+			<div class="card" style="background: #f3f6f9;">
+				<div class="p-4 text-center">
+					<h5 style="color: #0e2b5c;">Cyber security</h5>
+					<p style="color: #627792;" class="">Protect your business from malware, hackers, viruses and the most commonly security</p>
+					<div class="my-5">
+						<img src="Images/c33.svg" style="box-shadow-bottom: gray;">
+					</div>
+					<a href="#" class="font-weight-bold text-center">Stay up and running --></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="background: white;">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+				<p class="text-center mx-2 my-5" style="color: #576d6e;">IT services built specifically for your business. <a href="#" style="border-bottom: 1px dotted black;text-decoration: none;color: #576d6e;"> Find your solution</a></p>
+				<hr>
+		</div>
+	</div>
+<!-- ROW 5 ENDING -->
+<!-- ROW 6 -->
+
+<div class="row" style="background: white;">
+	<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 my-5 mx-auto my-2">
+		<img src="Images/r51.svg">
+	</div>
+	<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 my-5 mx-auto my-2">
+		<img src="Images/r52.svg">
+	</div>
+	<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 my-5 mx-auto my-2">
+		<img src="Images/r53.svg">
+	</div>
+	<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 my-5 mx-auto my-2">
+		<img src="Images/r54.svg">
+	</div>
+	<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 my-5 mx-auto my-2">
+		<img src="Images/r55.svg">
+	</div>
+	<div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 my-5 mx-auto my-2">
+		<img src="Images/r56.svg">
+	</div>
+</div>
+<!-- ROW 6 ENDING -->
+
+<!-- ROW 7 -->
+	<div class="row pt-3 px-5 pb-5" style="background-color: #231834 !important;">
+		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mx-auto pt-5">
+			<h6 style="color: blue;">INDUSTRIES WE SERVE</h6>
+			<h2 class="text-light">Managed IT services customized for your industry</h2>
+		</div>
+		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mx-auto pt-5">
+			<p style="color: #9b9aad;">Our vertical solutions expertise allows your business to streamline workflow, and increase productivity. No matter the business, NanoSoft has you covered with industry compliant solutions, customized to your company’s specific needs.</p>
+		</div>
+	</div>
+	<div class="row" style="background-color: #231834 !important;">
+		<div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-0"></div>
+		<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 text-center ttt">
+			<div class="tt">
+				<img class="pb-3" src="Images/r71.svg">
+				<h4 style="color: white;">Banking</h4>
+				<p class="text-light">Let us show you our experience</p>
+			</div>
+		</div>
+		<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 text-center ttt">
+			<div class="tt">
+				<img class="pb-3" src="Images/r72.svg">
+				<h4 style="color: white;">Capital markets</h4>
+				<p class="text-light">Let us show you our experience</p>				
+			</div>
+		</div>
+		<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 text-center ttt">
+			<div class="tt">
+				<img class="pb-3" src="Images/r73.svg">
+				<h4 style="color: white;">Manufacturing</h4>
+				<p class="text-light">Let us show you our experience</p>
+			</div>
+		</div>
+		<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 text-center ttt">
+			<div class="tt">			
+				<img class="pb-3" src="Images/r74.svg">
+				<h4 style="color: white;">Healthcare</h4>
+				<p class="text-light">Let us show you our experience</p>
+			</div>			
+		</div>
+		<div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-6 text-center ttt">
+			<div class="tt">
+				<img class="pb-3" src="Images/r75.svg">
+				<h4 style="color: white;">Higher education</h4>
+				<p class="text-light">Let us show you our experience</p>
+			</div>
+		</div>
+		<div class="col-xl-1  col-lg-1 col-md-1 col-sm-4 col-6"></div>
+	</div>
+
+	<div class="row pb-5" style="background-color: #231834 !important;padding-bottom: 200px;">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mx-auto text-center my-5 pb-5">
+			<h6 style="color: blue;">CASE STUDIES</h6>
+			<h2 class="text-light pb-4">We work with global brands</h2>
+		</div>
+	</div>
+
+	<div class="row bg-light pt-2">
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mx-auto mb-5">
+			<div class="background rrr" style="background: url(Images/p1.jpg);height: 200px;width: 90%;margin-left:5%;border-radius: 5px;">
+				<div class="layer text-center p-2" style="border-radius: 15px;">
+					<h3>Cloud migration saves money for health insurer</h3><h2 class="pt-3">UNILOGO</h2>
+				</div>				
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mx-auto mb-5">
+			<div class="background rrr" style="background: url(Images/p2.jpg);height: 200px;width: 90%;border-radius: 5px;">
+				<div class="layer text-center p-2" style="border-radius: 15px;">	
+					<h3>Remote support center for semiconductor provider</h3><h2 class="pt-3">JARGUAR</h2>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mx-auto mb-5">
+			<div class="background rrr" style="background: url(Images/p3.jpg);height: 200px;width: 90%;border-radius: 5px;">
+				<div class="layer text-center p-2" style="border-radius: 15px;">
+					<h3>Subscription licensing unlocks spike in IT orders</h3><h2 class="pt-3">TICKETBOX</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- ROW 7 ENDING -->
+
+<!-- ROW 8 -->
+	<div class="row" style="background: white;">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+				<p class="text-center mx-2 my-5" style="color: #576d6e;">Find out how companies succeed with us. <a href="#" style="border-bottom: 1px dotted black;text-decoration: none;color: #576d6e;">Read our case studies</a></p>
+		</div>
+	</div>
+	<div class="row" style="background: white;">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mx-auto">
+			<img src="Images/map.svg" style="width: 100%;">
+		</div>
+	</div>
+<!-- ROW 8 ENDING -->
+
+<!-- ROW 9 -->
+ 	<div class="row">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center font-weight-bold my-5">
+			<p>FORM OUR BLOG</p>
+			<h1>More articles from resource library</h1>			
+		</div>
+	</div>
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+				<!-- CARD1 -->
+				<div class="m-3 p-3" style="box-shadow: 5px 10px 5px 10px; width: 90%;background-color: white;">
+					<img src="Images/rt1.jpg" class="imm" style="width: 100%;">
+					<div class="text-justify p-4" style="width: 100%;">
+						<p class="font-weight-bold" style="color: #627792;">July 14, 2020</p>
+						<p class="font-weight-bold" style="color: #0e2b5c;font-size: 18px;">Why You Should Use WordPress for Website Development?</p>
+						<p class="font-weight-bold" style="color: #627792;">More than 74 million websites are running on WordPress powers approx 30% of all types of websites in the search engines. This cont...</p>
+						<a href="#" id="c1a" class="text-center font-weight-bold">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+						<!-- CARD2 -->
+						<div class="m-3 p-3" style="box-shadow: 5px 10px 5px 10px; width: 90%;background-color: white;">
+					<img src="Images/rt2.jpg" class="im" style="width: 100%;">
+					<div class="text-justify" style="width: 100%;">
+						<p class="font-weight-bold" style="color: #627792;">July 14, 2020</p>
+						<p class="font-weight-bold" style="color: #0e2b5c;">Why You Should Use WordPress for Website Development?</p>
+					</div>
+				</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+						<!-- CARD3 -->
+						<div class="m-3 p-3" style="box-shadow: 5px 10px 5px 10px; width: 90%;background-color: white;">
+					<img src="Images/rt3.jpg" class="im" style="width: 100%;">
+					<div class="text-justify" style="width: 100%;">
+						<p class="font-weight-bold" style="color: #627792;">July 14, 2020</p>
+						<p class="font-weight-bold" style="color: #0e2b5c;">Why You Should Use WordPress for Website Development?</p>
+					</div>
+				</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+						<!-- CARD4 -->
+						<div class="m-3 p-3" style="box-shadow: 5px 10px 5px 10px; width: 90%;background-color: white;">
+					<img src="Images/rt4.jpg" class="im" style="width: 100%;">
+					<div class="text-justify" style="width: 100%;">
+						<p class="font-weight-bold" style="color: #627792;">July 14, 2020</p>
+						<p class="font-weight-bold" style="color: #0e2b5c;">Why You Should Use WordPress for Website Development?</p>
+					</div>
+				</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-16 col-sm-12 col-12">
+						<!-- CARD5 -->
+						<div class="m-3 p-3" style="box-shadow: 5px 10px 5px 10px; width: 90%;background-color: white;">
+					<img src="Images/rt5.jpg" class="im" style="width: 100%;">
+					<div class="text-justify" style="width: 100%;">
+						<p class="font-weight-bold" style="color: #627792;">July 14, 2020</p>
+						<p class="font-weight-bold" style="color: #0e2b5c;">Why You Should Use WordPress for Website Development?</p>
+					</div>
+				</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- ROW 9 ENDING -->
+
+
+<!-- ROW 10 -->
+	<div class="row">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center my-5 px-0" style="background: url(Images/slide2.jpg);width: 100%;height: 400px;">
+			<div class="text-center text-light" style="background: rgba(23, 27, 87,0.7);width: 100%;height: 100%;">
+				<h3 class="pt-5">Our Values</h3>
+				<div>
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active font-weight-bold">
+					      <p style="font-size: 40px;">EXELLENCE</p>
+					    </div>
+					    <div class="carousel-item font-weight-bold">
+					      <p style="font-size: 40px;">INNOVATION</p>
+					    </div>
+					    <div class="carousel-item font-weight-bold">
+					      <p style="font-size: 40px;">COMMITMENT</p>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<h4 class="pt-2">These values gives us the foundation we need</h4>
+				<span>
+					<a href="#"><i class="fa fa-play-circle fa-play-cir " aria-hidden="true" style="font-size: 70px;color:red;"></i></a>
+				</span>
+			</div>
+		</div>
+	</div> 
+<!-- ROW 10 ENDING -->
+
+<!-- ROW 11 -->
+	<div class="row bg-light pb-5">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center font-weight-bold my-5">
+			<p>TESTIMONIALS</p>
+			<h1>What our customers say</h1>
+		</div>
+	</div>
+	<div class="row bg-light">
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 pl-5 mb-4">
+			<div class="display-block" style="padding: 15px; box-shadow:  5px 10px 5px 10px #b6bbc2;border-top: 3px solid blue;width: 85%;height: 300px;background: white;">
+				<img class="my-4" src="Images/j-c.svg">
+				<blockquote class="text-justify">"I sleep easier at night knowing the NanoSoft team is in my corner. Supporting my business and keeping my systems in Tip-Top shape"</blockquote>
+				<h4 class="mt-3">John H. Bedard, Jr</h4>
+				<p>Office Manager</p>
+			</div>			
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 pl-5 mb-4">
+			<div class="display-block" style="padding: 15px; box-shadow:  5px 10px 5px 10px #b6bbc2;border-top: 3px solid red;width: 85%;height: 300px;background: white;">
+				<img class="my-4" src="Images/box-c.svg">
+				<blockquote class="text-justify">"I sleep easier at night knowing the NanoSoft team is in my corner. Supporting my business and keeping my systems in Tip-Top shape"</blockquote>
+				<h4 class="mt-3">John H. Bedard, Jr</h4>
+				<p>Office Manager</p>
+			</div>			
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 pl-5 mb-4">
+			<div class="display-block" style="padding: 15px; box-shadow:  5px 10px 5px 10px #b6bbc2;border-top: 3px solid green;width: 85%;height: 300px;background: white;">
+				<img class="my-4" src="Images/k-c.svg">
+				<blockquote class="text-justify">"I sleep easier at night knowing the NanoSoft team is in my corner. Supporting my business and keeping my systems in Tip-Top shape"</blockquote>
+				<h4 class="mt-3">John H. Bedard, Jr</h4>
+				<p>Office Manager</p>
+			</div>			
+		</div>
+
+	</div>
+<!-- ROW 11 ENDING -->
+
+<!-- FOOTER -->
+<div class="row">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 w-100">
+		<img src="Images/slide.jpg" style="width: 100%;height: 130px;">
+	</div>
+</div>
+	<div class="row p-5" style="background: white;">
+		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+			<div>
+				<img src="Images/footer.png">
+				<address>
+					<p>Beverley Rd Brooklyn, New York 1226 US<br>
+					P: <a href="#" style="text-decoration: none;color: #6b798f;">+ (0712) 819 79 555</a>&nbsp; | 
+					M: <a href="#" style="text-decoration: none;color: #6b798f;">info@example.com</a></p>
+				</address>
+				<div class="social-icons">
+					<a href="#"><i class="fa fa-twitter ficon" ></i></a>
+					<a href="#"><i class="fa fa-facebook-official ficon" ></i></a>
+					<a href="#"><i class="fa fa-instagram ficon" ></i></a>
+					<a href="#"><i class="fa fa-youtube-play ficon" ></i></a>
+					<a href="#"><i class="fa fa-linkedin-square ficon" ></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+			<div>
+				<table class="foot">
+					<tr><th>Company</th><th>Support</th></tr>
+					<tr><td>About Us</td><td>Forum Support</td></tr>
+					<tr><td>Blog</td><td>Contact Us</td></tr>
+					<tr><td>Careers</td><td>Privacy Policy</td></tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div class="row bg-light">
+		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center p-3">
+			Copyright © 2020 <a href="#" style="text-decoration: none;color: #6b798f;">Reflom IT Solutions</a>
+		</div>
+	</div>
+<!-- FOOTER ENDING -->
+</div>
+<!-- CONTAINER_FLUID ENDING -->
+<script type="text/javascript">
+	function mouseoncard1(){
+		document.getElementById("c11").innerHTML="How can we help?";
+		document.getElementById("c12").innerHTML="Discover now->";
+		document.getElementById("c11").classList.add("c11");
+		document.getElementById("c12").classList.add("c12");
+		document.getElementById("c11").classList.remove("cardtitle");
+		document.getElementById("c12").classList.remove("cardtext");
+	}
+	function mouseoutcard1() {
+		document.getElementById("c11").innerHTML="Our Services";
+		document.getElementById("c12").innerHTML="How can we help?";
+		document.getElementById("c11").classList.remove("c11");
+		document.getElementById("c12").classList.remove("c12");
+		document.getElementById("c11").classList.add("cardtitle");
+		document.getElementById("c12").classList.add("cardtext");		
+	}
+	function mouseoncard2(){
+		document.getElementById("c21").innerHTML="Why partner with us?";
+		document.getElementById("c22").innerHTML="Learn more->";
+		document.getElementById("c21").classList.add("c11");
+		document.getElementById("c22").classList.add("c12");
+		document.getElementById("c21").classList.remove("cardtitle");
+		document.getElementById("c22").classList.remove("cardtext");
+	}
+	function mouseoutcard2() {
+		document.getElementById("c21").innerHTML="Our Expertise";
+		document.getElementById("c22").innerHTML="Why partner with us?";
+		document.getElementById("c21").classList.remove("c11");
+		document.getElementById("c22").classList.remove("c12");
+		document.getElementById("c21").classList.add("cardtitle");
+		document.getElementById("c22").classList.add("cardtext");		
+	}
+	function mouseoncard3(){
+		document.getElementById("c31").innerHTML="Client success stories";
+		document.getElementById("c32").innerHTML="Read more->";
+		document.getElementById("c31").classList.add("c11");
+		document.getElementById("c32").classList.add("c12");
+		document.getElementById("c31").classList.remove("cardtitle");
+		document.getElementById("c32").classList.remove("cardtext");
+	}
+	function mouseoutcard3() {
+		document.getElementById("c31").innerHTML="Our Customers";
+		document.getElementById("c32").innerHTML="Client success stories";
+		document.getElementById("c31").classList.remove("c11");
+		document.getElementById("c32").classList.remove("c12");
+		document.getElementById("c31").classList.add("cardtitle");
+		document.getElementById("c32").classList.add("cardtext");		
+	}
+</script>	
+</body>
+</html>
